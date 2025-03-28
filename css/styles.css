@@ -6,14 +6,14 @@
 /* Changing the main font and background colour */
 
 body {
-	font-family: Fredoka, sans-serif;
+	font-family: Fredoka, sans-serif; 
 	background-color: #fffff0;
 }
 
 /* Changing the background colour for the header */
 
 header {
-	background-color: #000060;
+	background-color: #eaf7f1;
 }
 
 /* Changing the background color for the navigation bar */
@@ -43,3 +43,8 @@ footer a:hover {
 		0 0 .2em white,
 		0 0 .5em white;
 }
+
+
+
+
+
