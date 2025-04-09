@@ -13,13 +13,17 @@ body {
 /* Changing the background colour for the header */
 
 header {
-	background-color: #eaf7f1;
+	font-family: Fredoka, sans-serif;
+	background-color: #ffb342;
+ 
 }
 
 /* Changing the background color for the navigation bar */
 
 .navbar {
+	font-family: Fredoka, sans-serif;
 	background-color: #ffb342;
+	color: #FFFFF;
 }
 
 /* Effect on social media buttons */
