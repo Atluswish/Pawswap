@@ -5,6 +5,7 @@
 
 /* Changing the main font and background colour */
 
+
 body {
 	font-family: Fredoka, sans-serif; 
 	background-color: #fffff0;
@@ -48,6 +49,13 @@ footer a:hover {
 		0 0 .5em white;
 }
 
+
+/* Leaflet Instructions, Declaring size of the map */
+#map {
+  height: 60vh;     /* 60% of the screen height */
+  width: 100%;      /* Full width */
+  min-height: 400px; /* Never shorter than 400px */
+}
 
 
 
