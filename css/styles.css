@@ -57,6 +57,24 @@ footer a:hover {
   min-height: 400px; /* Never shorter than 400px */
 }
 
+.title-text {
+	font-family: Fredoka, sans-serif;
+	color: #6e4b3a;
+	text-align: center;
+}
 
+.leaflet-popup-content {
+  font-family: 'Fredoka', sans-serif; /* or whatever font you're using */
+  font-size: 16px;
+  color: #6e4b3a;
+  line-height: 1.5;
+}
+
+.leaflet-popup-content-wrapper {
+	background-color: #FFFFF0 !important; /* !important just makes this take priority over Leaflets presets */
+	border-radius: 12px;
+    border: 2px solid #6e4b3a;
+}
+	
 
 
