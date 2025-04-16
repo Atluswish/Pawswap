@@ -105,3 +105,15 @@ a.swap-button:hover {
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
+
+.caption-box {
+  background-color: #FFFFF0;
+  padding: 0.4rem 1.5rem;
+  margin-top: 0.5rem;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
