@@ -79,7 +79,7 @@ footer a:hover {
 .products {
 	font-family: Fredoka, sans-serif;
 	color: #6e4b3a;
-	text-align: center;
+	text-align: left;
 }
 
 
@@ -95,6 +95,13 @@ footer a:hover {
   cursor: pointer;
 }
 
-a.button:hover {
-    background-color: #C65810;
+a.swap-button:hover {
+    background-color: #FFB353;
+}
+
+.swap-only {
+  color: #ff914d; /* Or any color that matches your palette */
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
