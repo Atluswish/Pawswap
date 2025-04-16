@@ -18,7 +18,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 //Swap Marker 1
 L.marker([51.60281571895569, 4.7816432910496225], { icon: pawIcon }).addTo(map)
-  .bindPopup('<strong>Bark Enjoyers<strong><br>Members: 10<br>Swaps:23<br><a href="dogproducts.html" target="Blank">Swaps Available</a>');
+  .bindPopup('<strong>Zandberg Tails</strong><br>Members: 10<br>Swaps: 23<br><a href="dogproducts.html" target="Blank">Swaps Available</a>');
 			 
 
 var circle = L.circle([51.60281571895569, 4.7816432910496225], {
@@ -27,9 +27,16 @@ var circle = L.circle([51.60281571895569, 4.7816432910496225], {
     fillOpacity: 0.5,
     radius: 500
 }).addTo(map);
+
 //Swap Marker 2
 L.marker([51.586768, 4.74336], { icon: pawIcon }).addTo(map)
- .bindPopup("The Hond lovers<br>Members: 12<br>Swaps:31")
+ .bindPopup('<strong>Princenhage Pups</strong><br>Members: 12<br>Swaps: 31<br><a href="dogproducts.html" target="Blank">Swaps Available</a>')
+var circle = L.circle([51.586768, 4.74336], {
+    color: 'orange',
+    fillColor: '#ffb342',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
 
 
 //Remove the below after use as it is only for finding coordinates on the map for Pins

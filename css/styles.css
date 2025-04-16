@@ -63,6 +63,11 @@ footer a:hover {
 	text-align: center;
 }
 
+.general-text {
+	font-family: Fredoka, sans-serif;
+	color: #6e4b3a;
+}
+
 .leaflet-popup-content {
   font-family: 'Fredoka', sans-serif; /* or whatever font you're using */
   font-size: 16px;
@@ -115,5 +120,30 @@ a.swap-button:hover {
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;         /* or fixed width */
+  max-width: 800px;    /* optional max width */
+  margin: 0 auto;
+}
+
+.img {
+  width: 1300;
+  height: 600;
+  display: block;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;              /* vertically centered */
+  left: 40px;            /* distance from the *left* edge */
+  transform: translateY(-50%); /* keeps it centered vertically */
+  color: #6E4B3A;
+  background-color: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 1.2rem;
 }
 
