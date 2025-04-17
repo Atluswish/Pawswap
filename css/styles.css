@@ -23,7 +23,7 @@ header {
 
 .navbar {
 	font-family: Fredoka, sans-serif;
-	background-color: #ffb342;
+	background-color: #ff924d;
 	color: #FFFFF;
 }
 
@@ -90,7 +90,7 @@ footer a:hover {
 
 .swap-button {
   background-color: #ff914d;
-  color: white;
+  color: #fffff0;
   padding: 10px 20px;
   text-decoration: none; /* Remove the underline */
   border-radius: 8px;
@@ -101,7 +101,7 @@ footer a:hover {
 }
 
 a.swap-button:hover {
-    background-color: #FFB353;
+    background-color: #eaf7f1;
 }
 
 .swap-only {
@@ -147,3 +147,50 @@ a.swap-button:hover {
   font-size: 1.2rem;
 }
 
+
+  .image-container2 {
+    position: relative;
+    width: 100%;
+    max-width: 1300px;
+    height: 600px;
+    margin: 0 auto;
+  }
+
+  .image-container2 img {
+    width: 50%; /* adjust as needed */
+    height: 100%;
+    float: right; /* keeps image on the right */
+    object-fit: cover;
+  }
+
+  .overlay-text2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* perfect centering */
+    color: #6E4B3A;
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    text-align: left;
+    z-index: 2;
+    max-width: 60%;
+  }
+
+.image-container3 {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    height: 200px;
+    margin: 0 auto;
+  }
+.overlay-text3 {
+  position: absolute;
+  top: 57%; /* Adjust this back to 50% or lower it to 55% */
+  left: 50%;
+  transform: translateX(-50%); /* Horizontally center */
+  color: #6E4B3A;
+  text-align: center;
+  font-size: 1.2rem;
+}
