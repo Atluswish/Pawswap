@@ -5,11 +5,15 @@
 
 /* Changing the main font and background colour */
 
+h1,h2,h3,h4,h5,h6,h7 {
+	font-family: Fredoka, sans-serif;
+}
 
 body {
-	font-family: Fredoka, sans-serif; 
+	font-family: 'satoshi', sans-serif; 
 	background-color: #fffff0;
 }
+
 
 /* Changing the background colour for the header */
 
